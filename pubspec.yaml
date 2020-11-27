@@ -1,0 +1,57 @@
+name: test_kulenkov_part2
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^5.7.10
+  flutter_signin_button: ^1.1.0
+  font_awesome_flutter: ^8.10.0
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - images/pexels-fabian-wiktor-3471423.jpg
+      - images/map.png
+      - images/interview.png
+      - images/interview_3.jpg
+      - images/interview_4.jpg
+      - images/interview_5.jpg
+      - images/image1.jpeg
+      - images/image2.jpeg
+      - images/image3.jpeg
+      - images/image4.jpeg
+      - images/image5.jpeg
+      - images/image6.jpeg
+      - images/image7.jpeg
+      - images/image8.jpeg
